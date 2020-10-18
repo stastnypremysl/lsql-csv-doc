@@ -1,7 +1,23 @@
-\chapter{Title of the first chapter}
+\chapter{Introduction}
 
-An~example citation: \cite{Andel07}
+\section{What is LSQL? What it is good for?}
 
-\section{Title of the first subchapter of the first chapter}
+Why would anyone come with a new query language for flat data, when there are standartized languages for doing so? It's easy.
 
-\section{Title of the second subchapter of the first chapter}
+The widly used standard for querying flat data is SQL. The SQL is designed to make a human (and machine) readable queries, which can be contained in large projects with many people.
+The readability of written code comes in the first place and therefore it was designed not for the comfort of the programmer, who actually writes the code, but for hunderts of people, who comes after him and tries to find out, what his code does.
+
+This is the opposite of what LSQL is developed for. We try to make a "write-only" language, which will make an unix user more comfortable on his machine. It doesn't care about constraints, try to ignore types as much as possible and is designed by the means of unix philosophy.
+
+Why should we use a poweruser-friendly tool, when we have user-friendly tool to do the same thing, faster\footnote{You don't have to learn new language.} and maybe better? Like Excel, Calc or Django admin?
+Simply put, there are use cases, where user-friendly tools unnecessarly complicate the whole situation, and you want the solution to be as simple as possible. For the sake of your brain, your time, your psyché, the maintability and lifetime\footnote{Have you noticed, how offen Microsoft Excel or Postgresql are changing the database format and how they are complex, when we compare them to csv?} of data and scripts and amount of information, you have to remember.
+
+All of these questions will be discussed later in text.
+
+\section{What is lsql-csv?}
+lsql-csv is tool implementing LSQL for quering csv files. The main\footnote{and unrealistic} ambition of this project is to get into standartized UNIX ecosystem. It is simple, useful tools coresponding the KISS (keep it simple stupid) and UNIX philosophy (mainly do only one thing and do it right).
+
+Similary of the Java gredo is Write once, run anywhere, the author thinks, the UNIX ecosystem gredo should be Write once, run forever. The reason, why would you want to store data in csv is not only its simplicity and usefulness, but that you can be sure, you can open UTF-8 csv file 30 years later, and you will be probably able to run your UNIX ecosystem scripts. 
+
+\section{Who is this text for?}
+This text is for people, who wants to understand the usefulness of LSQL, lsql-csv and the reason, why and how they exist. If you want to try the tool without knowing anything deeper about it, you might consider to read README.md instead of this text.

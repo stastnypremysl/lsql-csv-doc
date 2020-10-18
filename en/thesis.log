@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020 Gentoo Linux) (preloaded format=pdflatex 2020.10.17)  18 OCT 2020 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020 Gentoo Linux) (preloaded format=pdflatex 2020.10.17)  18 OCT 2020 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ LaTeX Info: Redefining \nameref on input line 109.
 
  (./title.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 6.
-<../img/logo-en.pdf, id=63, 506.4591pt x 156.49065pt>
+<../img/logo-en.pdf, id=67, 506.4591pt x 156.49065pt>
 File: ../img/logo-en.pdf Graphic file (type pdf)
 <use ../img/logo-en.pdf>
 Package pdftex.def Info: ../img/logo-en.pdf  used on input line 9.
@@ -642,6 +642,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./chap01.tex
 Chapter 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 12.
 ) [3
 
 
@@ -665,7 +671,11 @@ Chapter 2.
 ]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex (./thesis.bbl)) [6
+ (./bibliography.tex (./thesis.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)) [6
 
 
 
@@ -673,7 +683,7 @@ Chapter 2.
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[7
+ [7
 
 
 ] (./thesis.lot)
@@ -695,26 +705,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
 (./epilog.aux) (./bibliography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F926D30495A07CFBBFEDFE215791BBA4;2651.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: FD069B1BF402A316A8D49DA30DBDB687;2470
+(rerunfilecheck)             After:  ABA7AC08FD3B3D7D2D2C0C51E74D9CA9;2611.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  ) 
 Here is how much of TeX's memory you used:
- 14552 strings out of 482935
- 201025 string characters out of 5961039
- 437813 words of memory out of 5000000
- 29470 multiletter control sequences out of 15000+600000
- 577643 words of font info for 57 fonts, out of 8000000 for 9000
+ 14592 strings out of 482935
+ 201456 string characters out of 5961039
+ 439789 words of memory out of 5000000
+ 29492 multiletter control sequences out of 15000+600000
+ 596245 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,7n,41p,503b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,41p,514b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr
-12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf
--dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on thesis.pdf (14 pages, 422715 bytes).
+10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
+-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public
+/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+Output written on thesis.pdf (14 pages, 484702 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
