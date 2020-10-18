@@ -1,0 +1,7 @@
+% Metadata to be stored in PDF, see documentation of the pdfx package for more details.
+
+\Author{Přemysl Šťastný}
+\Title{LSQL language and it's lsql-csv implementation for csv files}
+\Keywords{lsql lsql-csv unix kiss unix-philosophy haskell database csv new-language data-analysis data-query}
+\Subject{LSQL is language, which is new database query language optimilized for simple onetime queries in command line enviroment. lsql-csv is project implementing LSQL for csv files. The thesis is about reason and design of the language and it's lsql-csv implementation.}
+\Publisher{Charles University}
