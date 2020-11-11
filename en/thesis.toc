@@ -5,12 +5,22 @@
 \contentsline {section}{\numberline {1.3}Who is this text for?}{3}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Use cases and their standard solutions with or without lsql-csv}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Student subject evidence}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Rapid analysis of statistical data}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Madhouse internet censorship}{4}{section.2.3}%
-\contentsline {chapter}{Conclusion}{5}{chapter*.3}%
-\contentsline {chapter}{Bibliography}{6}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{7}{chapter*.5}%
-\contentsline {chapter}{List of Tables}{8}{chapter*.6}%
-\contentsline {chapter}{List of Abbreviations}{9}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Attachments}{10}{appendix.A}%
-\contentsline {section}{\numberline {A.1}First Attachment}{10}{section.A.1}%
+\contentsline {subsection}{\numberline {2.1.1}Usage of paper}{4}{subsection.2.1.1}%
+\contentsline {subsubsection}{Pros}{4}{section*.3}%
+\contentsline {subsubsection}{Cons}{4}{section*.4}%
+\contentsline {subsection}{\numberline {2.1.2}Usage of specialized software - SIS, Bakalari,...}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{Pros}{5}{section*.5}%
+\contentsline {subsubsection}{Cons}{5}{section*.6}%
+\contentsline {subsection}{\numberline {2.1.3}Usage of Microsoft Excel or Libreoffice Calc - offline version}{5}{subsection.2.1.3}%
+\contentsline {subsubsection}{Pros}{6}{section*.7}%
+\contentsline {subsubsection}{Cons}{6}{section*.8}%
+\contentsline {subsection}{\numberline {2.1.4}Usage of online spreadsheet software}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Usage of csv}{7}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Rapid analysis of statistical data}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Madhouse internet censorship}{7}{section.2.3}%
+\contentsline {chapter}{Conclusion}{8}{chapter*.9}%
+\contentsline {chapter}{List of Figures}{9}{chapter*.10}%
+\contentsline {chapter}{List of Tables}{10}{chapter*.11}%
+\contentsline {chapter}{List of Abbreviations}{11}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Attachments}{12}{appendix.A}%
+\contentsline {section}{\numberline {A.1}First Attachment}{12}{section.A.1}%

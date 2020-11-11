@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020 Gentoo Linux) (preloaded format=pdflatex 2020.10.17)  18 OCT 2020 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020 Gentoo Linux) (preloaded format=pdflatex 2020.10.17)  11 NOV 2020 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,8 +487,8 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 103.
 File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count275
 \l__pdf_internal_box=\box50
-) (./thesis.aux (./title.aux) (./preface.aux) (./chap01.aux) (./chap02.aux)
-(./epilog.aux) (./bibliography.aux))
+)
+No file thesis.aux.
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
@@ -511,7 +511,6 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 09.
-
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -555,16 +554,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 109.
 LaTeX Info: Redefining \pageref on input line 109.
 LaTeX Info: Redefining \nameref on input line 109.
-
-(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
 \openout2 = `title.aux'.
 
- (./title.tex
+
+(./title.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 6.
-<../img/logo-en.pdf, id=67, 506.4591pt x 156.49065pt>
+<../img/logo-en.pdf, id=7, 506.4591pt x 156.49065pt>
 File: ../img/logo-en.pdf Graphic file (type pdf)
 <use ../img/logo-en.pdf>
 Package pdftex.def Info: ../img/logo-en.pdf  used on input line 9.
@@ -578,8 +576,7 @@ Package pdftex.def Info: ../img/logo-en.pdf  used on input line 9.
 Package hyperref Info: Option `pageanchor' set `true' on input line 55.
  [1
 
-]
-[2
+] [2
 
 ]
 Overfull \hbox (8.80162pt too wide) in paragraph at lines 114--116
@@ -589,40 +586,7 @@ abase csv new-language|
 
 [3
 
-]) (./thesis.toc
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-.
- (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-3.
-
-(/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-3.
-
-(/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
@@ -633,8 +597,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `preface.aux'.
 
- (./preface.tex)
-[2
+ (./preface.tex) [2
 
 
 ]
@@ -642,6 +605,41 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./chap01.tex
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+2.
+(/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+12.
+
+(/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+12.
+
+(/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -657,46 +655,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  (./chap02.tex
 Chapter 2.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+6.
+(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4
 
 
 
-]
+] [5]) [6] [7]
 \openout2 = `epilog.aux'.
 
- (./epilog.tex) [5
+ (./epilog.tex)
+[8
 
 
 
 ]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex (./thesis.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
-)) [6
-
-
-
-] (./thesis.lof)
+ (./bibliography.tex
+No file thesis.bbl.
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [7
+ [9
 
 
-] (./thesis.lot)
+
+
+]
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [8
+ [10
 
-] [9
+] [11
 
 ]
 Appendix A.
-[10
+[12
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
@@ -712,27 +711,28 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: FD069B1BF402A316A8D49DA30DBDB687;2470
-(rerunfilecheck)             After:  ABA7AC08FD3B3D7D2D2C0C51E74D9CA9;2611.
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D4F54F1E5C846CB6E301A197425AB9B4;3753.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  ) 
 Here is how much of TeX's memory you used:
- 14592 strings out of 482935
- 201456 string characters out of 5961039
- 439789 words of memory out of 5000000
- 29492 multiletter control sequences out of 15000+600000
- 596245 words of font info for 80 fonts, out of 8000000 for 9000
+ 14594 strings out of 482935
+ 201960 string characters out of 5961039
+ 438296 words of memory out of 5000000
+ 29499 multiletter control sequences out of 15000+600000
+ 602514 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,8n,41p,514b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fo
-nts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr
-10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
--dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public
-/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
-Output written on thesis.pdf (14 pages, 484702 bytes).
+ 44i,8n,41p,836b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
+onts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12
+.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/l
+m/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/t
+exmf-dist/fonts/type1/public/lm/lmr8.pfb>
+Output written on thesis.pdf (16 pages, 493270 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

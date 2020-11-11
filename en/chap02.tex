@@ -2,6 +2,89 @@
 It was once sayed, that a simple example can be more then thousand words. The author absolutly agrees with this thesis and therefore before any generilezed analysis outcome, he has decided to write down the real world motivation.
 
 \section{Student subject evidence}
+Let's say, you are an teacher, who needs to make an evidence of grades given to his students. This is normal thing, what teachers does, but there is no best way how to do it. Each solution has its pros and contras and we will try to examine the most used of them to see, why lsql-csv can be useful.
+
+\subsection{Usage of paper}
+The classical solution since the paper and pen is widly avaliable. The first problem with this aproach is losing the paper...this can become an absolute hell, when you are in the end of the semester and you have to remake your evidence from the students paperwork. 
+
+Even it is the most simple solution available, I would not recommend it as it isn't much scalable, you waste part of your life on paper sorting and paper saving, evaluating data (average, pass/not passed,...), you will feel bad if you are an ecoactivist, and finally you will be worried about losing the paper, which can't be even read by other people because of GPDR.
+
+One of the largest problem of this approach are the students, who wants to know their grades, but you can't tell it to all of them at one because of their privacy rights. You have to speak with each student separatly or give them an paper/letter with their results. Nightmare. - Yes, you can make the nicknames to anonymize, but the whole magic of the simplicity of the solution will be gone. Students may also have problem to remember their chosen nicknames and therefore you may be bombarded by disoriented parents\footnote{In elementary school} and forgotful students.
+
+\subsubsection{Pros}
+\begin{itemize}
+\item The easiest reasonable solution
+\item Fast to plant
+\item Readable for centuries (if well archived)
+
+\end{itemize}
+
+\subsubsection{Cons}
+\begin{itemize}
+\item Hard to share (with all respects to the law\footnote{You can't scan the paper and put it in the internet like in the old times and nicknames make a unwanted chaos.}
+\item Hard to well archive and it is all up to you and your reponsibility
+\item Hard to evaluate statistical analysis\footnote{It is sometimes wanted to have Gaussian function like results.}  and final results for students
+
+\end{itemize}
+
+
+\subsection{Usage of specialized software - SIS, Bakalari,...}
+This is obviosly a working solution, but there can be many unexpected problems, if you are using nonstandard grading system.
+
+If you don't have any special requirements and your institution is rich enough, this may be the right solution for you. It is fast to learn, tested and gives access students to see their grades.
+
+There is also one problem, which is being underestamated by many administrators, and that is the timelife of the data and the software.
+The project being unmaintained\footnote{Absence of a motivation, people or money, or death of the author may be good reason.} in future may be a large problem for you, if you are obligated by law to archive old results.
+You may have problems with future architecture compatibility, API compatibility,...
+
+If the software is maintained in unproper way, there can be also security problems. There may be few deliquents, who may sabotage the database and make the whole system untrusted. - If every teacher maintain their own database (for example on a paper), it may be much harder to do the same amount of damage to the evidence as to the centralized system using a fatal security bug.
+
+\subsubsection{Pros}
+\begin{itemize}
+\item Easy data processing for an institution, teachers and students
+\item Easy to learn
+\item Easy sharing respecting privacy standarts
+\item Possibly easy archivation
+\end{itemize}
+
+\subsubsection{Cons}
+\begin{itemize}
+\item Usually not flexible enough
+\item Possibly money and time eating solution for your institution
+\item Possible security problems
+\item Very slow plantation
+\end{itemize}
+
+\subsection{Usage of Microsoft Excel or Libreoffice Calc - offline version}
+We may use a general spreadsheet software to save data. It is well working and easy solution for everyone. Everyone loves it!\footnote{...sarcasm...} So where is the problem?
+
+First of all there is no schema for your data, so if you or your organisation wants to analyse data across more spreadsheet, it may have a really hard time. But let's say we don't employ any "expert" to do that so nobody wants anything like that.
+
+The solution looks nice at first look. You may compute averages, evaluate conditions,... without almost any effort. But when you want to do some real scripting, you may have a problem. Imagine, you want to automatically select subset of data (grades without real names(, which you give students. You will have to write a large amount a code for that...it is time eating, but after some time, you might realise, that it is easier and faster to do CTRL+C and CTRL+V after each new input rather then trying to program it yourself. Yes, you can convert spreadsheet format to csv file using some utility, but you can never be sure whether the next version of your spreadsheet software won't break your scripts up. The best thing is, you will find out few years later after your scripts and work on them is done.
+
+This is the first place, where the frustration begins. You have your hands tied up with the limits, size, complexity and inovation of your spreadsheet software and you can't the things which would make your life easier.
+
+The problem with the inovation of format of spreadsheet processor might not be only an problem for scripting, but also for archivation. We don't know, how many times and how much Microsoft (or someone else) will change their spreadsheet format and how good backward compatibility they will maintain. You might find yourself one day in position, when you are obligated to submit data and you will have to waste days your time to decode obsolated formats. That's not good vision for the future.
+
+\subsubsection{Pros}
+\begin{itemize}
+\item Moderatetly hard to learn
+\item Fast plantation
+\item Easy basic statistical analysis and evaluation
+\end{itemize}
+
+\subsubsection{Cons}
+\begin{itemize}
+\item Chaos in data across an organisation
+\item Possible incompatibility through time
+\item Incompability with other aplications and languages
+\item Nontrivial archivation
+\item Hard to keep shared data with students up to date
+\end{itemize}
+
+\subsection{Usage of online spreadsheet software}
+\subsection{Usage of csv}
+
 
 \section{Rapid analysis of statistical data}
 
